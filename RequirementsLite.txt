@@ -1,0 +1,15 @@
+# RD&ROA - Versão leve para execução sem GPU
+# Tech Challenge 4 - FIAP | Ramon C. Sancha
+
+# Dependências principais (versões leves e compatíveis com CPU)
+ultralytics==8.2.30       # YOLOv8 leve (detecção + pose)
+opencv-python-headless==4.8.1.78  # Versão sem dependências gráficas
+numpy==1.25.2             # Operações numéricas otimizadas para CPU
+python-docx==1.1.0        # Geração de relatórios Word
+PyYAML==6.0.1             # Configurações YAML
+pandas==2.1.1             # Manipulação de dados e exportação CSV
+
+# Dependências opcionais
+tqdm==4.66.1              # Progresso de execução
+
+# Para instalar: pip install -r RequirementsLite.txt

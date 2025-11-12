@@ -1,0 +1,30 @@
+# RD&ROA - FIAP Tech Challenge 4
+# Arquivos a serem ignorados no GitHub
+
+# Vídeos e imagens grandes
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# Arquivos de relatório e miniaturas
+*.docx
+thumbs/
+__pycache__/
+
+# Arquivos temporários e de sistema
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Checkpoints ou modelos locais
+*.pt
+*.onnx

@@ -1,0 +1,22 @@
+# RD&ROA - Relatório de Detecção de Riscos, Objetos e Atividades
+# Tech Challenge 4 - FIAP | Ramon C. Sancha
+
+# Principais dependências
+ultralytics==8.2.58       # YOLOv8 framework (detecção e pose)
+opencv-python==4.10.0.84  # Leitura e manipulação de vídeo/imagens
+numpy==1.26.4             # Operações numéricas
+pandas==2.2.3             # Análise e exportação de dados (CSV futuro)
+python-docx==1.1.2        # Geração automática de relatórios Word (.docx)
+PyYAML==6.0.2             # Configuração de zonas e matriz de risco via YAML
+matplotlib==3.9.2         # Gráficos (heatmap e visualizações futuras)
+scipy==1.14.1             # Cálculos auxiliares e estatísticos
+
+# Suporte opcional (GPU e aceleração)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Utilitários complementares
+tqdm==4.66.5              # Barra de progresso (opcional)
+
+
+# Para instalar: pip install -r requirements.txt
